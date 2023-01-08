@@ -53,9 +53,9 @@ body {
 
 .ticket {
 display: flex;
+justify-content: space-between;
 align-items: center;
 min-height: 50px;
-
 font-size: 0.9em;  
 }
 
