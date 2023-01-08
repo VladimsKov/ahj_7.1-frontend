@@ -1,5 +1,5 @@
 export default class Modals {
-    static createModal() {
+  static createModal() {
     const modalWrap = Modals.modalWrap();
     modalWrap.insertAdjacentHTML('beforeend', `<div class='modal-container'>
     <p>Добавить тикет</p>
@@ -13,7 +13,7 @@ export default class Modals {
     </div>
     </div>`);
     const modn = document.querySelector('.modal-name');
-    modn.focus();        
+    modn.focus();
   }
 
   static delModal() {
@@ -25,7 +25,6 @@ export default class Modals {
     <button class='modal-btn' id='mod-ok-btn'>ОК</button>
     </div>
     </div>`);
-
   }
 
   static changeModal() {
@@ -55,7 +54,6 @@ export default class Modals {
 
   static closemodal() {
     const modalWrap = document.querySelector('[data-modal=modal-wrap]');
-    modalWrap.remove(); 
+    modalWrap.remove();
   }
 }
-
